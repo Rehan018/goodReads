@@ -1,10 +1,10 @@
 
 ## Architecture 
-![Pipeline Architecture](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/architecture.png)
+![Pipeline Architecture]
 
 Pipeline Consists of various modules:
 
- - [GoodReads Python Wrapper](https://github.com/san089/goodreads)
+ - [GoodReads Python Wrapper]
  - ETL Jobs
  - Redshift Warehouse Module
  - Analytics Module 
