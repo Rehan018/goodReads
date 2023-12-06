@@ -79,16 +79,16 @@ Make sure Airflow webserver and scheduler is running.
 Open the Airflow UI `http://< ec2-instance-ip >:< configured-port >` 
 
 GoodReads Pipeline DAG
-![Pipeline DAG](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/goodreads_dag.PNG)
+![Pipeline DAG](https://github.com/Rehan018/goodReads/blob/main/docs/images/goodreads_dag.PNG)
 
 DAG View:
-![DAG View](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/DAG.PNG)
+![DAG View](https://github.com/Rehan018/goodReads/blob/main/docs/images/DAG.PNG)
 
 DAG Tree View:
-![DAG Tree](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/DAG_tree_view.PNG)
+![DAG Tree](https://github.com/Rehan018/goodReads/blob/main/docs/images/DAG_tree_view.PNG)
 
 DAG Gantt View: 
-![DAG Gantt View](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/DAG_Gantt.PNG)
+![DAG Gantt View](https://github.com/Rehan018/goodReads/blob/main/docs/images/DAG_Gantt.PNG)
 
 
 ## Testing the Limits
@@ -97,14 +97,14 @@ The `goodreadsfaker` module in this project generates Fake data which is used to
  To test the pipeline I used `goodreadsfaker` to generate 11.4 GB of data which is to be processed every 10 minutes (including ETL jobs + populating data into warehouse + running analytical queries) by the pipeline which equates to around 68 GB/hour and about 1.6 TB/day.
 
 Source DataSet Count:
-![Source Dataset Count](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/DatasetCount.PNG)
+![Source Dataset Count](https://github.com/Rehan018/goodReads/blob/main/docs/images/DatasetCount.PNG)
 
 
 DAG Run Results:
-![GoodReads DAG Run](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/DAG_tree_view.PNG)
+![GoodReads DAG Run](https://github.com/Rehan018/goodReads/blob/main/docs/images/DAG_tree_view.PNG)
 
 Data Loaded to Warehouse:
-![GoodReads Warehouse Count](https://github.com/san089/goodreads_etl_pipeline/blob/master/docs/images/WarehouseCount.PNG)
+![GoodReads Warehouse Count](https://github.com/Rehan018/goodReads/blob/main/docs/images/WarehouseCount.PNG)
 
 
 
